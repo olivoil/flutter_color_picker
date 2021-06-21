@@ -1,0 +1,24 @@
+name: color_picker
+description: Photoshop color picker workshop
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_hooks: ^0.17.0
+  hooks_riverpod: ^0.14.0+4
+  reactive_forms: ^10.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
